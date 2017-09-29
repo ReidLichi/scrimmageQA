@@ -7,3 +7,4 @@ Validate:
 - [ ] Email address field type is "email" and requires a valid address.
 - [ ] Password field type is password.
 - [ ] User can successfully create an account.
+- [ ] testing
