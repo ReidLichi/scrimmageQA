@@ -145,14 +145,116 @@ Verify:
 - [ ] "FTP processing is active" setting updated
 
 ### Augment Feed Data
+    Ensure that a user can augment an existing feed
+Verify:
+- [ ] Upload a feed that matches the feed type
+- [ ] Does the system Validate the feed matches the feed type chosen?
+- [ ] Process Augmented Feed Data
+- [ ] Do new products get processed?
+- [ ] Are existing product titles, descriptions, prices, URLs, and Images processed?
+- [ ] Download original feed
 
-### Manage PDF Catalog
+## Manage 3.0 Catalog
 
-### Manage 3.0 Catalog
+### Assign Products
+Verify:
+- [ ] You can assign up to the limit of featured products (default 300)
+- [ ] You can Clear All products from the featured list
+- [ ] You can sort by Category
+- [ ] You can limit the number of products displayed in the results view
+- [ ] You can move to the next list of results to be displayed
+- [ ] View the list of featured products
+- [ ] Re-order the featured products
+- [ ] Un-feature the assigned products
+
+### Manage Pages
+Verify:
+- [ ] You can navigate to different pages of the Dynalog
+- [ ] You can move products to and from the bucket
+- [ ] Page Options:
+  * Products per page / Apply to All Pages / Revert Random Count
+  * Page Layout:
+    * Choose Layout: Square / Vertical /Horizontal
+    * Apply to pages: This page / All pages
+  * Select New Background:
+    * Color
+    * Patterns
+    * Repeat Backgrounds
+    * Apply to pages: All Pages / This Page / This Spread
+  * Toggle Logo Visibility
+  * Border Options:
+    * Show / Hide
+    * Apply to pages: This page / All pages
+  * Price Options:
+    * Price on pages
+    * Prices on Quick View
+    * Apply to pages: This page / All pages
+  * Lifestyle Image:
+    * Upload Lifestyle Image
+    * Page Linkout Details
+    * Page URL
+    * Hover Text
+    * Price
+    * Convert to Category Style Page
+  * Category Style Page
+- [ ] All Manage Pages Options work in the Dynalog
 
 ### Manage Products
+- [ ] Search for a product and:
+  * Modify the data
+  * Modify the image
+  * Was the product featured, did it change the order of the managed pages?
+- [ ] Add New Product
+  * Did the system validate required fields?
+  * Verify if product was added
 
 ### Manage Search Options
+- [ ] Display multiple products in the Related Products window by (defaulted to Description)
+- [ ] Sort Related Products by:
+- [ ] All Search options work in the Dynalog
 
 ### Manage Categories
+- [ ] Enable Desktop Categories
+- [ ] Enable Mobile Categories
+- [ ] Enable Category Dynalogs by:
+  * Product Listing
+  * Mini Dynalogs
+- [ ] Default Category Processing:
+  * Products Per Page
+  * Image Orientation
+  * Hide Subcategories if Main Category has less than...
+- [ ] Mass Update
+- [ ] Activate categories and preview
+- [ ] Set cover image for Categories
+
+### Manage PDF Catalog
+- [ ] Upload a PDF
+  * Did the system validate the dimensions?
+  * What happens if you process a PDF with different page sizes
+- [ ] Process PDF Page Dimensions:
+  * Width / Height
+  * Image Quality
+  * Custom Width / Height
+- [ ] Copy from Master PDF
+  * Clone Features
+  * Match Annotation Field
+- [ ] Annotate PDF
+  * Use same SKU multiple times
+  * Does the annotation appear in the same place on the live Dynalog?
+- [ ] Page Options
+  * Is Double Spread
+  * Page Linkout: Top / Bottom
+  * Is Request Form
+
+### Live Dynalog
+Verify:
+- [ ] Pages Flip
+- [ ] Quickview opens and shows related products
+- [ ] Details button linksout to URL
+- [ ] Menu Options all work
+- [ ] Search Option displays correctly
+- [ ] Categories show products
+- [ ] Print Page
+- [ ] Text to phone
+- [ ] Share on social media
 
