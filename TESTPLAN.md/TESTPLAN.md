@@ -12,7 +12,7 @@ Validate:
 - [ ] Admin can successfully create an account. All fields have been entered correctly.
 
 ### Group Dashboard
-    Ensure that an admin is able to successfully create a group.
+    Ensure that a user is able to successfully create a group.
 Validate:
 - [ ] Able to upload a logo:
   * PNG
@@ -23,7 +23,7 @@ Validate:
 - [ ] Create a new Version
 
 ### Create A New Version
-    Ensure that an admin is able to successfully create a version in a group.
+    Ensure that a user is able to successfully create a version in a group.
 Validate:
 - [ ] Title is "AlphaNumeric" and required
 - [ ] Description is "AlphaNumeric" and required
@@ -35,6 +35,7 @@ Validate:
 ## Version Control Center
 
 ### General Catalog Settings
+    Ensure that a user is able to configure the general version settings
 Verify:
 - [ ] Tracking codes update in the Dynalog
 - [ ] Language updates in the Dynalog
@@ -69,12 +70,79 @@ Verify:
 
 
 ### Manage Lead Options
+    Ensure that a user is able to configure the Lead Options for a version.
+Verify:
+- [ ] Lead Form Options work in the Dynalog.
+- [ ] Desktop Options work in the Dynalog
+- [ ] Mobile Options work in the Dynalog
+- [ ] Message updates in the Dynalog
+- [ ] Additional message updates in the Dynalog
+- [ ] Submit Button Label updates in the Dynalog
+- [ ] Notification Email is received when form is filled.
+- [ ] Request phone is updated
+- [ ] Comments are updated in the Dynalog
+- [ ] Manage Lead Form Options are successfully updated in the Dynalog
+- [ ] Export your leads
 
 ### Manage Auto Play Options
+    Ensure that the Manage Auto Play Options can be configured
+Verify:
+- [ ] URL Target can be updated in the Auto-Play URL
+- [ ] Flip Interval is correctly timed in the Auto-Play URL
+- [ ] Banner Message is updated in the Auto-Play URL
+- [ ] Page Ranges are correctly displayed in the Auto-Play URL
+- [ ] Open URL Target window correctly opens (new tab or same window)
+- [ ] Left Navigation Bar displays properly (show/hide)
+- [ ] Manage Auto Play Options are successfully updating in the Auto-Play URL
 
 ### Uploading Feeds
+    Ensure that a user can successfully upload a feed
+Verify:
+- [ ] The following feed types can be uploaded:
+  * CSV
+  * TSV
+  * XML
+- [ ] Upload a new feed to create a new version
+- [ ] Overwrite Existing feed
+- [ ] Auto Process Feed Without Customization
+- [ ] Map the feed and verify that the 5 mandatory fields are required.
 
 ### Processing Feeds
+    Ensure that a user can sucessfully process a feed
+Verify:
+- [ ] Products can be assigned from:
+  * Nothing (The feed is a new version and no cloning)
+  * From Old Version (cloning from a previous version)
+  * From Feed (The "Featured" list is mapped)
+  * Random/300 (Group Setting is turned on)
+- [ ] Amazon Servers can be Started / Stopped / Flushed
+- [ ] Send a feed to be processed on the following servers:
+  * Images1
+  * Images2
+  * Amazon1
+  * Amazon2
+  * Amazon3
+  * Amazon4
+  * AmazonTiny
+- [ ] Process types:
+  * Regular Processing
+  * Search Dynalog
+  * Re-Process Images
+  * Process Outstanding Images
+  * Simulate Processing
+- [ ] Process a feed with different Image Qualities (did anything change?)
+
+### FTP Feed
+    Ensure that a user can setup FTP feeds
+Verify:
+- [ ] Generate Password sets up a new password
+- [ ] Use an FTP client like Filezilla to access that user using the new password.
+- [ ] Upload a file to the FTP to test
+- [ ] Feed type matches the uploaded file on the FTP
+- [ ] What happens when a feed type does not match the uploaded file on the FTP
+- [ ] Change the Processing Mode
+- [ ] "Keep all pages same" test both options
+- [ ] "FTP processing is active" setting updated
 
 ### Augment Feed Data
 
@@ -88,4 +156,3 @@ Verify:
 
 ### Manage Categories
 
-###
